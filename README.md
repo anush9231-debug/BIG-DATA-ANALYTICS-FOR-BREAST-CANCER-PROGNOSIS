@@ -29,17 +29,17 @@ breast_cancer_seer_prognosis/
 +-- dissertation_report.docx            # 3,570-word Dissertation Report (Word Document)
 +-- dissertation_report.md              # 3,570-word Dissertation Report (Markdown Version)
 +-- data/
-¦   +-- raw/
-¦   ¦   +-- Query_5_years.xlsx          # Raw SEER dataset (35,349 patient records)
-¦   +-- processed/
-¦       +-- seer_clean.csv              # Cleaned, encoded, leakage-free dataset
+Â¦   +-- raw/
+Â¦   Â¦   +-- Query_5_years.xlsx          # Raw SEER dataset (35,349 patient records)
+Â¦   +-- processed/
+Â¦       +-- seer_clean.csv              # Cleaned, encoded, leakage-free dataset
 +-- src/
-¦   +-- data_loader.py                  # Ingestion, data hygiene & 80/20 stratified split
-¦   +-- eda.py                          # Exploratory data analysis & distribution plotting
-¦   +-- feature_engineering.py          # One-Hot Encoding, Z-score scaling & PCA projections
-¦   +-- model_trainer.py                # 8 ML classifiers + 10-Fold Stratified CV & Grid Search
-¦   +-- evaluator.py                    # Metric benchmarking, confusion matrices & ROC curves
-¦   +-- explainability.py               # Feature importance ranking & clinical biomarkers
+Â¦   +-- data_loader.py                  # Ingestion, data hygiene & 80/20 stratified split
+Â¦   +-- eda.py                          # Exploratory data analysis & distribution plotting
+Â¦   +-- feature_engineering.py          # One-Hot Encoding, Z-score scaling & PCA projections
+Â¦   +-- model_trainer.py                # 8 ML classifiers + 10-Fold Stratified CV & Grid Search
+Â¦   +-- evaluator.py                    # Metric benchmarking, confusion matrices & ROC curves
+Â¦   +-- explainability.py               # Feature importance ranking & clinical biomarkers
 +-- artifacts/
     +-- models/                         # Saved pre-trained model binaries (.pkl)
     +-- plots/                          # Publication-grade PNG figures for thesis & slides
@@ -71,12 +71,7 @@ This launches an interactive Clinical Decision Support System at `http://localho
 - **Tab 3: Patient 5-Year Survival Predictor**: Interactive sidebar controls for age, tumor size, positive nodes, hormone receptor status (ER, PR, HER2), and treatments to calculate real-time 5-year mortality risk scores.
 - **Tab 4: Prognostic Biomarkers**: Top 15 SEER clinical biomarker feature importances.
 
-### 3. Running the Master Pipeline (`run_pipeline.py`)
-To re-run data ingestion, 10-fold CV, holdout test evaluation, figure generation, and CSV table exports in a single command:
 
-```powershell
-python run_pipeline.py
-```
 
 ---
 
