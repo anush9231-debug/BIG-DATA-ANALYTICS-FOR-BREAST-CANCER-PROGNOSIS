@@ -1,0 +1,39 @@
+Feature,Importance
+Diagnosis_year,0.5872917
+Regional nodes positive (1988+),0.14393406
+Radiation sequence with surgery_Radiation after surgery,0.06762353
+PR Status Recode Breast Cancer (1990+)_Positive,0.029810539
+Age at diagnosis,0.022066237
+CS_tumor_size_mm,0.01934194
+Total number of in situ/malignant tumors for patient,0.016050098
+ER Status Recode Breast Cancer (1990+)_Positive,0.0153761795
+ER Status Recode Breast Cancer (1990+)_Negative,0.015061283
+Race recode_Black,0.014208739
+Radiation recode_None/Unknown,0.008264797
+Radiation sequence with surgery_No radiation and/or cancer-directed surgery,0.007432977
+Regional nodes examined (1988+),0.006831963
+Radiation recode_Beam radiation,0.006312407
+PR Status Recode Breast Cancer (1990+)_Negative,0.006011507
+Derived HER2 Recode (2010+)_Negative,0.005858877
+Chemotherapy recode_No/Unknown,0.004967497
+Derived HER2 Recode (2010+)_Positive,0.003927209
+Derived HER2 Recode (2010+)_Borderline,0.003598008
+Race recode_Unknown,0.0034325998
+Radiation recode_Refused (1988+),0.003097885
+Derived HER2 Recode (2010+)_Unknown,0.0028750503
+PR Status Recode Breast Cancer (1990+)_Unknown,0.002169406
+Sex_Female,0.0018896674
+ER Status Recode Breast Cancer (1990+)_Unknown,0.0013048018
+ER Status Recode Breast Cancer (1990+)_Borderline,0.0012609584
+Radiation sequence with surgery_Surgery both before and after radiation,0.0
+Radiation recode_Combination of beam with implants or isotopes,0.0
+Radiation recode_Radioisotopes (1988+),0.0
+Chemotherapy recode_Yes,0.0
+Radiation recode_Radioactive implants (includes brachytherapy) (1988+),0.0
+Radiation sequence with surgery_Radiation prior to surgery,0.0
+Radiation sequence with surgery_Radiation before and after surgery,0.0
+Radiation sequence with surgery_Intraoperative rad with other rad before/after surgery,0.0
+Radiation sequence with surgery_Intraoperative radiation,0.0
+PR Status Recode Breast Cancer (1990+)_Borderline,0.0
+Race recode_White,0.0
+Sex_Male,0.0
